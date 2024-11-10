@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: inter, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.contenedor {
+    width: 1200px;
+    background-color: rgb(238, 238, 238);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-color: #1F1F1F;
+    border-radius: 0 0 25px 25px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.menu {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.bmenu {
+    padding-right: 40px;
+}
+
+a {
+    color: white;
+    font-family: dela gothic one, sans-serif;
+}
+
+a:hover {
+    opacity: 60%;
+    transition: 0.3s;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 72px;
+    font-family: dela gothic one, sans-serif;
+    color: #1F1F1F;
+    margin-bottom: 20px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: dela gothic one, sans-serif;
+    color: #0A5DD9;
+    font-size: 35px;
+    margin-top: 175px;
+    margin-left: 143px;
+}
+
+p {
+    margin-left: 143px;
+    margin-bottom: 35px;
+}
+
+.galeria {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.imagen {
+    margin: -3px;
+}
+
+img.ilustracion1 {
+    width: 850px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    margin-bottom: 35px;
+
+}
+
+a.volver {
+    color: #0A5DD9;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+article.sobre {
+    width: 750px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.foto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+}
+
+h2.sobre {
+    text-align: center;
+    font-size: 80px;
+    color: #4DBE36;
+    margin-top: 25px;
+}
+
+p.sobre {
+    font-size: 16px;
+    color: #1F1F1F;
+    padding-bottom: 25px;
+    border-bottom: 3px solid #4DBE36;
+}
+
+.derechos {
+    text-align: center;
+    padding: 25px;
+    color: white;
+}
+
+footer {
+    background-color: #1F1F1F;
+}
+
+div.redes {
+    width: 60px;
+    height: 250px;
+    background-color: rgb(207, 207, 207);
+    position: fixed;
+    top: 255px;
+    left: 0px;
+    border-radius: 20px;
+
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    padding: 5px;
+}
